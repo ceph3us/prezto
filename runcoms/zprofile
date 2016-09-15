@@ -20,13 +20,13 @@ fi
 export EDITOR='nano'
 export VISUAL='nano'
 export PAGER='less'
-
+export HELPDIR='/usr/local/share/zsh/help'
 #
 # Language
 #
 
 if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
+  export LANG='en_GB.UTF-8'
 fi
 
 #
